@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 import axios from 'axios';
 import { FaSearch} from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 const SearchPage =()=>{
     const [query,setQuery]=useState("");
@@ -46,7 +47,11 @@ return (
                 <li key={index}>
 
                 {drugGroup.conceptProperties.map((drug)=>(
-                    <p key={drug.rxcui}>{drug.name}</p>
+                    <p key={drug.rxcui}>
+                    <Link to={`/drugs/${drug.name}`} style={{ textDecoration: 'none', color: 'blue' }}>
+                        {drug.name}
+                    </Link>
+                </p>
             ))}
             </li>
             ))}
