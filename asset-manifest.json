@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/searchingfordrugs_react/static/css/main.e6c13ad2.css",
+    "main.js": "/searchingfordrugs_react/static/js/main.d4a230b8.js",
+    "static/js/453.f3e3bbda.chunk.js": "/searchingfordrugs_react/static/js/453.f3e3bbda.chunk.js",
+    "index.html": "/searchingfordrugs_react/index.html",
+    "main.e6c13ad2.css.map": "/searchingfordrugs_react/static/css/main.e6c13ad2.css.map",
+    "main.d4a230b8.js.map": "/searchingfordrugs_react/static/js/main.d4a230b8.js.map",
+    "453.f3e3bbda.chunk.js.map": "/searchingfordrugs_react/static/js/453.f3e3bbda.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.d4a230b8.js"
+  ]
+}
